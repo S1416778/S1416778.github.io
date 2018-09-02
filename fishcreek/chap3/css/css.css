@@ -1,0 +1,47 @@
+
+
+
+body {
+	
+	background-color:#FFFFFF;
+	color: #003366;
+	font-family: Arial, Sans-serif;
+	
+}
+header{
+	
+	background-color:#003366;
+	color:#AEC3E3;
+	font-family: "Times New Roman", serif;
+}
+h1{
+	background-color:#003366;
+	color:#AEC3E3;
+	font-family: "Times New Roman", serif;
+	height : 200%;
+	text-indent: 1em;
+}
+nav{
+	font-weight: bold;
+}
+dt{
+	color: #5280C;
+	font-size: 1.1em;
+	font-weight: bold;
+	font-family: "Times New Roman", serif;
+}
+<class="category>{
+	color: #5380C5;
+	font-weight: bold;
+	font-family: "Times New Roman", serif;
+}
+footer{
+	font-size: .07em;
+	font-style: italic;
+}
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	background-color: #F0F0F0;
+}
