@@ -1,18 +1,9 @@
-
-
-
 body {
 	
 	background-color:#FFFFFF;
 	color: #003366;
 	font-family: Arial, Sans-serif;
 	
-}
-header{
-	
-	background-color:#003366;
-	color:#AEC3E3;
-	font-family: "Times New Roman", serif;
 }
 h1{
 	background-color:#003366;
@@ -30,7 +21,7 @@ dt{
 	font-weight: bold;
 	font-family: "Times New Roman", serif;
 }
-<class="category>{
+.category ul li b{
 	color: #5380C5;
 	font-weight: bold;
 	font-family: "Times New Roman", serif;
@@ -44,4 +35,13 @@ footer{
 	margin-right: auto;
 	width: 80%;
 	background-color: #F0F0F0;
+}
+
+body div ul p {
+	color:#003366;
+}
+.title{
+	color:#003366;
+	font-weight: bold;
+	
 }
