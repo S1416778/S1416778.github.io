@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5280C5;
+    background-image: url("includes/gradientblue.jpg");
+    color: #003366;
+    font-family: Verdana, Arial;
+}
+
+#wrapper {
+    min-width: 700px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #000066;
+    color: #AEC3E3;
+    background-image: url("includes/bigfish.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    line-height: 250%;
+    font-size: 3em;
+    padding: 0.2em;
+    text-shadow: 2px 2px 2px #ccc;
+}
+
+.main {
+    background-color: #ccc;
+    background-image: url("includes/background.jpg");
+
+}
+
+.navigation {
+
+    float: left;
+    width: 180px;
+}
+
+.navigation nav ul {
+    list-style: none;
+}
+
+.navigation nav ul a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navigation nav ul a:link {
+    color: #000066;
+}
+
+.navigation nav ul a:visted {
+    color: #5280C5;
+}
+
+.navigation nav ul a:hover {
+    color: #3262A3;
+}
+
+img {
+    border-style: none;
+}
+
+.main-content {
+    margin-left: 180px;
+    background-color: white;
+    border: 1px solid #AEC3E3;
+}
+
+.content {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.category {
+    font-weight: bold;
+    color: #5380C5;
+    font-family: Georgia, 'Times New Roman';
+    text-shadow: 1px 1px 1px #667;
+}
+
+footer {
+    padding: 2em;
+    background-color: #AEC3E3;
+    text-align: center;
+    font-size: .70em;
+    font-style: italic;
+}
+
+header, nav, .main, footer {
+    display: block;
+}
