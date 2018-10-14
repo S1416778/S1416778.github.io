@@ -4,6 +4,58 @@ body {
     color: #222;
     text-align:center;
     padding:35px; }
+header {
+    background-color: #87CEEB;
+    color: #F0F0F0;
+    background-image: url("includes/Games-Banner-1140x400-1024x359.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    line-height: 250%;
+    font-size: 3em;
+    padding: 0.5em;
+    text-shadow: 2px 2px 2px #ccc;
+}
+
+.main {
+    background-color: #ccc;
+    background-image: url("includes/red-smoke-in-studio_23-2147685575.jpg");
+}
+
+.navigation {
+    float: left;
+    width: 180px;
+}
+
+.navigation nav ul {
+    list-style: none;
+}
+
+.navigation nav ul a {
+    font-weight: bold;
+    text-decoration: none;
+	color:#FFD700;
+}
+
+.navigation nav ul a:link {
+    color: #FFD700;
+}
+.navigation nav ul a:visted {
+    color: white;
+}
+
+.navigation nav ul a:hover {
+    color: #FFFF00;
+}
+
+img {
+    border-style: none;
+}
   
 form, p, span {
     margin:0;
